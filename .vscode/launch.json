@@ -59,6 +59,16 @@
             "mainClass": "com.example.orders.OrdersApplication",
             "projectName": "orders",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebgreetingsApplication<webgreetings>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.webgreetings.WebgreetingsApplication",
+            "projectName": "webgreetings",
+            "args": ""
         }
     ]
 }

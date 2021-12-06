@@ -7,5 +7,7 @@ import com.example.model.Customer;
 public interface CustomerRepository {
 
     public List<Customer> findAll();
+
+    public void addCustomer(Customer customer);
     
 }

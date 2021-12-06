@@ -6,15 +6,15 @@ import java.util.List;
 import com.example.model.Customer;
 import com.example.repository.CustomerRepository;
 
-public class CustomerRespositoryImpl implements CustomerRepository{
+public class CustomerRepositoryImpl implements CustomerRepository{
 
     List<Customer> customers;
 
-    public void CustomerRespositoryImpl(){
+    public CustomerRepositoryImpl(){
         this.customers = new ArrayList<Customer>();
     }
 
-    public void CustomerRespositoryImpl(List<Customer> customers){
+    public CustomerRepositoryImpl(List<Customer> customers){
         this.customers = customers;
     }
 
@@ -22,4 +22,7 @@ public class CustomerRespositoryImpl implements CustomerRepository{
         return customers;
     }
     
+    public void addCustomer(Customer customer){
+        this.customers.add(customer); 
+    }
 }
